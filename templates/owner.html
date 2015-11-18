@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Owner Module</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" /> 
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+	<nav class="navbar navbar-inverse margin-button">
+		<a href="../index.html" class="glyphicon glyphicon-chevron-left"></a>
+		<div class="container-fluid">
+
+			<h1>Vindhu</h1>
+			<h5>Authentic Andhra Food</h5>			
+
+			<div class="navbar-header">				
+				<span><a href="#">View/Edit Profile Details</a></span>
+				<span><a href="#">Assign/Change Table</a></span>
+				<span><a href="#">Auto Assign</a></span>
+				<span><a href="#">Contact List</a></span>
+			</div>
+    	</div>  
+		
+	</nav>
+	<div class="jumbotron body">
+		<div class="container colored border">
+			<div class="row">
+				<div class="col-md-4 col-sm-8 col-xs-8">
+					<br>
+					<div class="panel">List of Reservations</div>
+			        <div class="panel-group" id="accordion">
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+					        Reservation 1</a>
+					      </h4>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse">
+					      <div class="panel-body">Party of 6: Ram, 1234567890,rams@gmail.com,July 8th 7 PM PST</div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+					        Reservation 2</a>
+					      </h4>
+					    </div>
+					    <div id="collapse2" class="panel-collapse collapse">
+					      <div class="panel-body">Party of 2: Sam, details details details</div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+					        Reservation 3</a>
+					      </h4>
+					    </div>
+					    <div id="collapse3" class="panel-collapse collapse">
+					      <div class="panel-body">Party of 8: Greg, details details details</div>
+					    </div>
+					  </div>
+					</div>     
+				</div>
+					<div class="col-md-4 col-sm-8 col-xs-8"><br>
+						<div class="panel">List of Tables</div>
+						<div class="panel-group">
+  							<div class="panel panel-default">
+    						<div class="panel-heading">
+     							 <h4 class="panel-title">
+        							<a data-toggle="collapse" href="#collapse4">Reserved Tables</a>
+      							</h4>
+    						</div>
+    						<div id="collapse4" class="panel-collapse collapse">
+      							<ul class="list-group">
+       								 <li class="list-group-item">Table 1: #ABC123, 2, occupied since 8PM</li>
+       								 <li class="list-group-item">Table 2: #ABC456, 4, reserved since 8.30PM,</li>
+        							<li class="list-group-item">Table 3: #ABC789, 6, occupied since 7PM,</li>
+      							</ul>
+      							<div class="panel-footer">Occupied Tables: 3</div>
+    							</div>
+  							</div>
+  						</div>
+					</div>
+					<div class="col-md-4 col-sm-8 col-xs-8">
+					<br>
+					<div class="panel"><a href="new.html">Create/Edit Reservations</a>
+					</div>
+				</div>
+			</div>
+
+</div>
+	</div>
+	<div class="container-fluid">
+ 	 <div class="row">
+ 	 	<div class="col-md-4 col-sm-8 col-xs-8">
+ 	 		<p><h3>OUR TIMINGS:</h3>
+ 	 			<h4>9 AM- 9 PM PST</h4></p>
+ 	 	</div>
+ 	 	<div class="col-md-4 col-sm-8 col-xs-8">
+ 	 		<p><h3>**WE ARE CLOSED ON WEDNESDAYS</h3></p>
+ 	 	</div>
+ 	 	<div class="col-md-4 col-sm-8 col-xs-8">
+ 	 		<p><h3>CONTACT US: 123-456-7890</h3></p>
+ 	 	</div>
+	</div>
+
+	<div class="footer" align="center">
+			<div>
+				<a href="#"> Home </a>
+				|<a href="#"> Contact</a> 
+				|<a href="#"> About Us</a> 
+				|<a href="templates/new.html"> Reservations</a>
+			</div>
+			Copyright © vindhu.com
+	</div>
+
+</body>
+</html>

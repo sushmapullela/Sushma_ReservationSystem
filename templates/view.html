@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>View Reservation</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" /> 
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+
+
+
+	<nav class="navbar navbar-inverse margin-button">
+		<a href="../index.html" class="glyphicon glyphicon-chevron-left"></a>
+
+		
+		
+
+			<h1>Vindhu</h1>
+			<h5>Authentic Andhra Food</h5>
+			
+
+			<div class="navbar-header">				
+				<span><a href="new.html">Create New Reservation</a></span>
+				<span><a href="view.html">View Reservation</a></span>
+				<span><a href="edit-cancel.html">Edit/Cancel Reservation</a></span>
+			</div>
+    	</div>  
+		
+	</nav>
+	<div class="jumbotron body">
+		<div class="container colored border">
+			<div class="row">
+				
+				<div class="col-md-4 col-sm-8 col-xs-8">
+			             <div class="form-group">
+			             	<br>
+			            	<label for="contact">PLEASE ENTER CONFIRMATION NUMBER</label>
+			            	<input type=tel class="form-control" placeholder="Confirmation Number" size=4><br>
+			            	<button type="submit" class="btn btn-default" data-toggle="modal" data-target="#submit-msg">Submit</button>	
+			        	<div class="modal fade" id="submit-msg" role="dialog">
+			        		<div class="modal-dialog">
+			        			<div class="modal-content">
+			        				<div class="modal-header">
+			        					<button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Viewing reservation details for: ABC1234</h4>
+			        				</div>
+			        				<div id="confirmation" class="modal-body">
+			        					Name:RAM <br>
+			        					Contact: _________ <br>
+			        					Party Size: 6
+			        				</div>
+			        				<div class="modal-footer">
+          								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        							</div>
+			        			</div>
+			        		</div>
+			        	</div>	
+			        	</div>
+			     </div>
+			        	
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+ 	 <div class="row">
+ 	 	<div class="col-md-4 col-sm-8 col-xs-8">
+ 	 		<p><h3>OUR TIMINGS:</h3><br>
+ 	 			<h4>9 AM- 9 PM PST</h4></p>
+ 	 	</div>
+ 	 	<div class="col-md-4 col-sm-8 col-xs-8">
+ 	 		<p><h3>**WE ARE CLOSED ON WEDNESDAYS</h3></p>
+ 	 	</div>
+ 	 	<div class="col-md-4 col-sm-8 col-xs-8">
+ 	 		<p><h3>CONTACT US: 123-456-7890</h3></p>
+ 	 	</div>
+	</div>
+
+	<div class="footer" align="center">
+			<div>
+				<a href="#"> Home </a>
+				|<a href="#"> Contact</a> 
+				|<a href="#"> About Us</a> 
+				|<a href="templates/new.html"> Reservations</a>
+			</div>
+			Copyright © vindhu.com
+	</div>
+
+	
+	
+
+</body>
+</html>
